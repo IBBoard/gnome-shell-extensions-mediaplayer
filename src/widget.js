@@ -50,7 +50,7 @@ var SubMenu = new Lang.Class({
         this._isPlayerMenu = isPlayerMenu;
         this._arrow = sourceArrow;
 
-        this.actor = new St.ScrollView({style_class: 'popup-sub-menu',
+        this.actor = new St.ScrollView({style_class: 'popup-sub-menu panel-media-indicator',
                                         hscrollbar_policy: Gtk.PolicyType.NEVER,
                                         vscrollbar_policy: Gtk.PolicyType.NEVER});
 
